@@ -1,0 +1,24 @@
+.scroll-container {
+  width: 100%; /* Largura total da tela */
+  overflow-x: auto; /* Habilita o scroll horizontal */
+  white-space: nowrap; /* Faz com que as imagens fiquem em uma linha */
+  
+}
+
+.scroll-content {
+  display: inline-block; /* Mantém as imagens em uma linha */
+  justify-content: center;
+}
+
+.scroll-content img {
+margin-top: 100px;
+  max-width: 33%; /* Redimensiona as imagens para caber na tela */
+  height: auto;
+  display: inline-block; /* Faz com que as imagens fiquem uma ao lado da outra */
+  margin-right: 10px; /* Espaçamento entre as imagens */
+}
+
+.galleryText
+{
+	color: white;
+}
